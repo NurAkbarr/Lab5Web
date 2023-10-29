@@ -1,0 +1,44 @@
+body {
+  background-color: #f0f0ff; /* Warna latar belakang halaman */
+}
+
+h2 {
+  text-align: center;
+}
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #0077b6; /* Warna latar belakang formulir */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background-color: #005fa5; /* Warna latar belakang input teks dan password */
+  color: white;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #01aef0; /* Warna latar belakang tombol Submit */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #008bc1; /* Warna latar belakang tombol Submit saat digulirkan */
+}
+
+/* Stil pesan kesalahan */
+.error {
+  color: red;
+}
